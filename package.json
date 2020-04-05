@@ -1,25 +1,29 @@
+  
 {
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
+  "name": "tutsplus_fork_test",
+  "version": "1.0.0",
+  "description": " Very basic multiplayer online game example made with Phaser, Node.js and Socket.io ",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexgamedev/tutsplus-glitch-multiplayer.git"
+  },
+  "keywords": [
+    "Phaser",
+    "Multiplayer",
+    "game",
+    "Node.js",
+    "socket.io"
+  ],
+  "author": "Andy Lazaro",
+  "license": "MIT",
+  "homepage": "https://github.com/dexgamedev/tutsplus-glitch-multiplayer",
   "dependencies": {
     "express": "^4.15.2",
-    "socket.io": "^2.0.1"
-  },
-  "engines": {
-    "node": "6.10.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "socket.io": "^1.7.3"
+  }
 }
